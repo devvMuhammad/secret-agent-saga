@@ -1,0 +1,39 @@
+
+      //! PREVIOUS CODE
+      // Option options[3] = {{'s', "Shoot the Guard"}, {'f', "Fight with the Guard"}, {'e', "Run Away and Escape"}};
+      // Option userOption = getOptions(options, 3, "Oh! You have been caught by a guard. What do you want to do to tackle this scenario?");
+
+      // //! DO SOMETHING WITH CORRECT AND WRONG OPTION
+      // system("cls");
+      // if (userOption.code == 's')
+      // {
+      //   // shooting the guard
+      //   if (Player.ammo > 0)
+      //   {
+      //     cout << "Nice shot, Agent! You killed the guard stealthfully. Move forward and Best of luck in the rest of your mission\n";
+      //     Player.ammo--;
+      //     // move character one to the right to the place of collision (also after a successful fight)
+      //     x++;
+      //   }
+      //   else
+      //   {
+      //     restartLevel(x, y, "You pulled out your pistol with no ammo. You have failed to kill the guard. Be aware of your resources next time.");
+      //   }
+      // }
+      // else if (userOption.code == 'f')
+      // {
+      //   // fighting the guard
+      //   //! COMBAT SYSTEM CODE HERE
+      //   battleWithGuard();
+      //   x++;
+      // }
+      // else if (userOption.code == 'e')
+      // {
+      //   restartLevel(x, y, "Oops, Agent! Your attempt to escape has failed. Remember you are in a super sensitive area. Be careful next time.\n");
+      // }
+      // else
+      // {
+      //   // Default case
+      // }
+      // system("pause");
+      // system("cls");
